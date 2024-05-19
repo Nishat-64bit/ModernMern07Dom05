@@ -1,0 +1,47 @@
+
+/* custom css */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol,li{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    
+    /* flex-direction: column; */
+}
+.parent{
+    display: flex;
+    column-gap: 20px;
+
+}
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.taktime{
+    padding: 10px;
+}
+.takminute{
+    padding: 10px;
+}
+
+.taksecond{
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px;
+}
+.End{
+    padding: 10px;
+}
